@@ -6,6 +6,10 @@
     color: #13130D;
 }
 
+.orange_text {
+    color: #E08F5B;
+}
+
 .white_background {
     background-color: #F4F4F4;
 }
@@ -16,10 +20,6 @@
 
 .button_background {
     background-color: #E08F5B;
-}
-
-.button_text {
-    color: #E08F5B;
 }
 
 .card_box {
