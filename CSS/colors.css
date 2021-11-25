@@ -1,0 +1,28 @@
+.white_text {
+    color:#F4F4F4 ;
+}
+
+.black_text {
+    color: #13130D;
+}
+
+.orange_text {
+    color: #E08F5B;
+}
+
+.white_background {
+    background-color: #F4F4F4;
+}
+
+.black_background {
+    background-color: #13130D;
+}
+
+.button_background {
+    background-color: #E08F5B;
+}
+
+.card_box {
+       background-color: #202020;
+}
+
