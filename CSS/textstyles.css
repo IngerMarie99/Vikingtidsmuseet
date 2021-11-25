@@ -3,28 +3,64 @@
 
 p {
     font-family: 'Roboto', sans-serif;
-    font-size: 18px;
+    font-size: 1rem;
     font-weight: 300;
-    line-height: 21.09px;
+    line-height: 18.75px;
+}
+
+@media screen and (min-width: 500px) {
+    p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 1rem;
+        font-weight: 300;
+        line-height: 21.09px;
+    }
 }
 
 h1 {
     font-family: 'Playfair Display', serif;
-    font-size: 3.052em;
+    font-size: 1,802rem;
     font-weight: 400;
-    line-height: 73.32px;
+    line-height: 38.43px;
+}
+
+@media screen and (min-width: 500px) {
+    h1 {
+        font-family: 'Playfair Display', serif;
+        font-size: 3.052rem;
+        font-weight: 400;
+        line-height: 73.32px;
+    }
 }
 
 h2 {
     font-family: 'Playfair Display', serif;
-    font-size: 2.441em;
+    font-size: 1.602rem;
     font-weight: 400;
-    line-height: 58.65px;
+    line-height: 34,16px;
+}
+
+@media screen and (min-width: 500px) {
+    h2 {
+        font-family: 'Playfair Display', serif;
+        font-size: 2.441rem;
+        font-weight: 400;
+        line-height: 58.65px;
+    }
 }
 
 h3 {
     font-family: 'Playfair Display', serif;
-    font-size: 1.953em;
+    font-size: 1.424rem;
     font-weight: 400;
-    line-height: 58.65px;
+    line-height: 30.37px
+}
+
+@media screen and (min-width: 500px) {
+    h3 {
+        font-family: 'Playfair Display', serif;
+        font-size: 1.953rem;
+        font-weight: 400;
+        line-height: 58.65px;
+    } 
 }
