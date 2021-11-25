@@ -1,1 +1,30 @@
-.color
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 21.09px;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3.052em;
+    font-weight: 400;
+    line-height: 73.32px;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.441em;
+    font-weight: 400;
+    line-height: 58.65px;
+}
+
+h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.953em;
+    font-weight: 400;
+    line-height: 58.65px;
+}
