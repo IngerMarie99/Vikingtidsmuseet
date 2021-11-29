@@ -64,3 +64,59 @@ h3 {
         line-height: 58.65px;
     } 
 }
+
+
+.undertext {
+    font-size: 0.889rem;
+}
+
+@media screen and (min-width: 500px) {
+    .undertext {
+        font-size: 0.8rem;
+    }
+}
+
+.menu__font {
+    font-size: 24px;
+}
+
+@media screen and (min-width: 500px) {
+    .menu__font {
+        font-size: 20px;
+    }
+}
+
+.footer__text--small {
+    font-size: 0.889rem;
+    padding-top: 14px;
+}
+
+@media screen and (min-width: 500px) {
+    .footer__text--small {
+        font-size: 1rem;
+    }
+}
+
+.footer__text--small--underline {
+    font-size: 0.889rem;
+    padding-top: 14px;
+    text-decoration-line: underline;
+}
+
+.footer__text--big {
+    font-size: 24px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+
+@media screen and (min-width: 500px) {
+    .footer__text--big {
+        font-size: 20px;
+    }
+}
+
+li {
+    list-style-type: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}

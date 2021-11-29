@@ -8,3 +8,32 @@ body {
     }
     
 }
+
+footer {
+    height: 570px;
+}
+
+.footer__content__padding {
+    padding-left: 26px;
+}
+
+.footer__logo {
+    height: 76px;
+    padding-left: 26px;
+    padding-top: 26px;
+}
+
+.footer__social {
+    padding-left: 26px;
+    height: 24px;
+    
+}
+
+@media screen and (min-width: 500px) {
+    .footer__grid{
+        position: relative;
+        display: grid;
+        grid-template-columns: 1fr 1fr 2fr 1fr 1fr;
+        grid-template-rows: 2;
+    }
+}
