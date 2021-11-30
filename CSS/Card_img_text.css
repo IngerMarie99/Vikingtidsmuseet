@@ -1,0 +1,26 @@
+
+
+.card__wrapper {
+    display: flex;
+    margin: 0 auto;
+    padding-top: 52px;
+}
+
+.card__img {
+    width: 535px;
+    height: 400px;
+    background-color: burlywood;
+}
+
+.card_img_img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card__text {
+    text-align: left;
+    width: 545px;
+    height: 420px;
+    padding-left: -50px;
+}
