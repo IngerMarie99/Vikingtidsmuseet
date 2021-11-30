@@ -6,12 +6,80 @@
     <title>Vikingtidsmuseet</title>
     <link rel="stylesheet" href="./CSS/reset.css">
     <link rel="stylesheet" href="./CSS/textstyles.css">
+    <link rel="stylesheet" href="./CSS/slideshow.css">
 </head>
 <body>
-    <h1>Explore the Museum of the Viking Age</h1>
-    <p>dette er en paragraph</p>
+    <div class="container">
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <div class="card-slid">
+                    <img class="slide-img img-size-slider" src="./img/sko-viking-900.png" alt="900 year viking sho">
+                    <div class="slide-right-text">
+                        <h3 class="title-slid">Utstilingens navn</h3>
+                        <p class="p-tag-slid">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti possimus at ullam a praesentium neque eaque sit ea dicta ipsa, non, veniam eius aut numquam perspiciatis quidem laborum, reprehenderit amet.</p>
+                        <p class="p-tag-slid">02.01.22 - 02.02.22</p>
+                        <button class="c-a-btn-slide">Buy tickets</button>
+                    </div>
+                </div>
+            </div>
+            <div class="mySlides fade">
+                <div class="card-slid">
+                    <img class="slide-img img-size-slider" src="./img/face-stick.jpeg" alt="900 year viking sho">
+                    <div class="slide-right-text">
+                        <h3 class="title-slid">Utstilingens navn</h3>
+                        <p class="p-tag-slid">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti possimus at ullam a praesentium neque eaque sit ea dicta ipsa, non, veniam eius aut numquam perspiciatis quidem laborum, reprehenderit amet.</p>
+                        <p class="p-tag-slid">02.01.22 - 02.02.22</p>
+                        <button class="c-a-btn-slide">Buy tickets</button>
+                    </div>
+                </div>
+            </div>
+            <div class="mySlides fade">
+                <div class="card-slid">
+                    <img class="slide-img img-size-slider" src="./img/bed.png" alt="900 year viking sho">
+                    <div class="slide-right-text">
+                        <h3 class="title-slid">Utstilingens navn</h3>
+                        <p class="p-tag-slid">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti possimus at ullam a praesentium neque eaque sit ea dicta ipsa, non, veniam eius aut numquam perspiciatis quidem laborum, reprehenderit amet.</p>
+                        <p class="p-tag-slid">02.01.22 - 02.02.22</p>
+                        <button class="c-a-btn-slide">Buy tickets</button>
+                    </div>
+                </div>
+            </div>
+            <div class="mySlides fade">
+                <div class="card-slid">
+                    <img class="slide-img img-size-slider" src="./img/sko-viking-900.png" alt="900 year viking sho">
+                    <div class="slide-right-text">
+                        <h3 class="title-slid">Utstilingens navn</h3>
+                        <p class="p-tag-slid">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti possimus at ullam a praesentium neque eaque sit ea dicta ipsa, non, veniam eius aut numquam perspiciatis quidem laborum, reprehenderit amet.</p>
+                        <p class="p-tag-slid">02.01.22 - 02.02.22</p>
+                        <button class="c-a-btn-slide">Buy tickets</button>
+                    </div>
+                </div>
+            </div>
+            <div class="mySlides fade">
+                <div class="card-slid">
+                    <img class="slide-img img-size-slider" src="./img/face-stick.jpeg" alt="900 year viking sho">
+                    <div class="slide-right-text">
+                        <h3 class="title-slid">Utstilingens navn</h3>
+                        <p class="p-tag-slid">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti possimus at ullam a praesentium neque eaque sit ea dicta ipsa, non, veniam eius aut numquam perspiciatis quidem laborum, reprehenderit amet.</p>
+                        <p class="p-tag-slid">02.01.22 - 02.02.22</p>
+                        <button class="c-a-btn-slide">Buy tickets</button>
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+        <br>
+    
+        <div class="dots-man">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+        </div>
+    </div>
 
-    <h2>dette er h2</h2>
-    <h3>Dette er h3</h3>
+
+<script src="js/slideshow.js"></script>
 </body>
 </html>
