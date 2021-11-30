@@ -24,6 +24,32 @@ body {
 
 .three {
     height: 500px;
-    object-fit:cover ;
-    
+    width: 100%;
+    position: relative;
+}
+
+.Video{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.Video video{
+    width: 100%;
+}
+
+.Vidcta {
+    position: absolute;
+    z-index: 5;
+    top: 70%;
+    left: 10%;
+    color: #F4F4F4 ;
+}
+
+.TmTe {
+    margin: 10px;
+    padding: 2px 10px;
+    color: #F4F4F4;
+    background-color:rgba(165, 42, 42, 0);
+    border-color: rgb(224, 143, 91);
+    border-width: 1px;
 }
