@@ -87,8 +87,16 @@ h3 {
 }
 
 .footer__text--small {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
     font-size: 0.889rem;
-    padding-top: 14px;
+}
+
+.footer__text--small--opacity {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 0.889rem;
+    opacity: 50%;
 }
 
 @media screen and (min-width: 500px) {
@@ -97,26 +105,32 @@ h3 {
     }
 }
 
-.footer__text--small--underline {
+.footer__text--small--underline--opacity {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
     font-size: 0.889rem;
-    padding-top: 14px;
     text-decoration-line: underline;
+    opacity: 50%;
+}
+
+.footer__text--small--opacity {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 0.889rem;
+    opacity: 50%;
 }
 
 .footer__text--big {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
     font-size: 24px;
-    padding-top: 22px;
-    padding-bottom: 22px;
+
 }
 
 @media screen and (min-width: 500px) {
     .footer__text--big {
         font-size: 20px;
+
     }
 }
 
-li {
-    list-style-type: none;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-}

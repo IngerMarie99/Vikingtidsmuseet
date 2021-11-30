@@ -1,44 +1,156 @@
 body {
     font-size: 16px;
-}
 
-@media screen and (min-width: 500px) {
-    body {
-        font-size: 18px;
-    }
-    
 }
 
 footer {
-    height: 570px;
-}
-
-.footer__content__padding {
+    width: 100%;
+    min-height: 200px;
+    color: #fff;
+  }
+  
+  .footer-wrapper {
+    display: flex;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    padding-top: 35px;
     padding-left: 26px;
-}
+  }
 
-.footer__logo {
-    height: 76px;
-    padding-left: 26px;
-    padding-top: 26px;
-}
-
-.footer__social {
-    padding-left: 26px;
+  
+  
+  @media screen and (min-width: 768px) {
+    .footer-wrapper {
+      flex-flow: row nowrap;
+      padding-left: 0;
+    }
+  }
+  
+  .footer-wrapper__info {
+    display: flex;
+    flex-flow: row wrap;
+    flex-basis: 1180px;
+  }
+  
+  .i__img {
     height: 24px;
-    
+  }
+  
+  .footer-wrapper__logo {
+    height: auto;
+    flex-basis: 260px;
+    padding: 1rem 0;
+  }
+  
+  .footer-wrapper__logo img {
+    width: 192px;
+  }
+  
+  .footer-wrapper__box {
+    flex-basis: 280px;
+  }
+  
+  .footer-wrapper__box--small {
+    flex-basis: 100%;
+    text-align: left;
+  }
+
+  @media screen and (min-width: 768px) {
+    .footer-wrapper__box--small {
+      text-align: right;
+      flex-basis: 100px;
+    }
+  }
+  
+  .footer-wrapper__box--medium {
+    flex-basis: 300px;
+  }
+  
+  .footer-wrapper__box--big {
+    flex-basis: 500px;
+  }
+
+  
+.schedule-order {
+    order: 10;
+    padding-bottom: 27px;
 }
 
-@media screen and (min-width: 500px) {
-    .footer__grid{
-        position: relative;
-        display: grid;
-        grid-template-columns: 1fr 1fr 2fr 1fr 1fr;
-        grid-template-rows: 2;
+.address-order {
+    order: 35;
+    padding-bottom: 44px;
+}
+
+.contact-order{
+    order: 15;
+    padding-bottom: 22px;
+}
+
+.about-order{
+    order: 25;
+    padding-bottom: 44px;
+}
+
+.copyright-order{
+    order: 45;
+}
+
+.faq-order {
+    order: 20;
+    padding-bottom: 22px;
+}
+
+.privacy-order{
+    order: 40;
+    padding-bottom: 14px;
+}
+
+.social-order {
+    order: 30;
+    padding-bottom: 44px;
+}
+
+@media screen and (min-width: 768px) {
+    .schedule-order {
+        order: 1;
+        padding-bottom: 0px;
     }
 
-    .footer__item{
-        position: absolute;
-        
+    .address-order {
+        order: 2;
+        padding-bottom: 0px;
+    }
+
+    .contact-order{
+        order: 3;
+        padding-bottom: 0px;
+    }
+
+    .about-order{
+        order: 4;
+        padding-bottom: 0px;
+    }
+
+    .privacy-order{
+        order: 5;
+        padding-bottom: 0px;
+    }
+
+    .copyright-order{
+        order: 6;
+        padding-bottom: 0px;
+    }
+
+    .faq-order {
+        order: 7;
+        padding-bottom: 0px;
+    }
+
+    .social-order {
+        order: 8;
+        padding-bottom: 0px;
     }
 }
