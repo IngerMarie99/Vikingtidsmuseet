@@ -65,3 +65,73 @@ h3 {
         line-height: 58.65px;
     } 
 }
+
+
+.undertext {
+    font-size: 0.889rem;
+}
+
+@media screen and (min-width: 500px) {
+    .undertext {
+        font-size: 0.8rem;
+    }
+}
+
+.menu__font {
+    font-size: 24px;
+}
+
+@media screen and (min-width: 500px) {
+    .menu__font {
+        font-size: 20px;
+    }
+}
+
+.footer__text--small {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 0.889rem;
+}
+
+.footer__text--small--opacity {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 0.889rem;
+    opacity: 50%;
+}
+
+@media screen and (min-width: 500px) {
+    .footer__text--small {
+        font-size: 1rem;
+    }
+}
+
+.footer__text--small--underline--opacity {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 0.889rem;
+    text-decoration-line: underline;
+    opacity: 50%;
+}
+
+.footer__text--small--opacity {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 0.889rem;
+    opacity: 50%;
+}
+
+.footer__text--big {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+
+}
+
+@media screen and (min-width: 500px) {
+    .footer__text--big {
+        font-size: 20px;
+
+    }
+}
+
