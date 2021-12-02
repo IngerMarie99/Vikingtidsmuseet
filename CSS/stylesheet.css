@@ -41,6 +41,11 @@ footer {
   .i__img {
     height: 24px;
   }
+
+  .i__img-margin-fix {
+    margin-right: 8px;
+    height: 24px;
+  }
   
   .footer-wrapper__logo {
     height: auto;
