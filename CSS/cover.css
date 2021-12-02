@@ -1,0 +1,32 @@
+* {padding: 0; margin: 0; box-sizing: border-box;}
+
+.hero-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: #ccc;
+}
+
+.hero__cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: none;
+}
+
+ .hero_box {
+    position: absolute;
+    height: 380px;
+    width: 476px;
+    right: 200px;
+    bottom: 70px;
+    top: 358px;
+    border-radius: 0px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 20px;
+    z-index: 3;
+}
