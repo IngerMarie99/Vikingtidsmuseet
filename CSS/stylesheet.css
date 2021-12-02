@@ -3,10 +3,36 @@ body {
 
 }
 
+.support__menu {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .support__menu {
+    height: 3rem;
+    background-color: var(--Bl-bg);
+    text-align: right;
+    display: block;
+  }
+}
+
+.support__menu__container {
+  display: flex;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  justify-content: flex-end;
+}
+
+.support__menu__container img {
+  width: 20px;
+  margin: 0.8rem 1rem 0 0; 
+}
+
 footer {
     width: 100%;
     min-height: 200px;
-    color: #fff;
+    color: var(--W-tx);
   }
   
   .footer-wrapper {
