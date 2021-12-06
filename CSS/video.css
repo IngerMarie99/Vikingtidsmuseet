@@ -1,15 +1,18 @@
 .vid-ex {
     z-index: -2;
     margin: auto;
-
+    max-width: 100%;
  }
-  
- /*@media screen and (min-width: 400px) {
+
+ @media screen and (min-width: 500px) {
     .vid-ex {
-        width: 100% !important;
-        height: 100px;
+       height: auto;
     }
- }*/
+ }
+
+ .text {
+    padding-top: 10px;
+ }
 
  .vid-textbox-wrapper {
     text-align: left;
@@ -19,7 +22,7 @@
     margin: 3rem auto;
     box-shadow: -2px 3px 5px 4px rgba(0, 0, 0, 0.25);
     display: block;
-    transform: translateY(-100px);
+    transform: translateY(-80px);
     background-color: var(--Car-bx);
  }
 
@@ -28,6 +31,5 @@
        margin: 3rem auto;
        max-width: 1440px;
        padding: 80px;
-
     }
  }
