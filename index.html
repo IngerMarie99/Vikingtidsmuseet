@@ -1,188 +1,274 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vikingtidsmuseet</title>
-    <link rel="stylesheet" href="./CSS/reset.css">
-    <link rel="stylesheet" href="./CSS/colors.css">
-    <link rel="stylesheet" href="./CSS/root.css">
-    <link rel="stylesheet" href="./CSS/textstyles.css">
-    <link rel="stylesheet" href="./CSS/cover.css">
-    <link rel="stylesheet" href="./CSS/body_LP.css">
-    <link rel="stylesheet" href="./CSS/stylesheet.css">
-    <link rel="stylesheet" href="./CSS/slideshow.css">
-    <link rel="stylesheet" href="./CSS/nav-bar.css">
+    <link rel="stylesheet" href="./CSS/reset.css" />
+    <link rel="stylesheet" href="./CSS/colors.css" />
+    <link rel="stylesheet" href="./CSS/root.css" />
+    <link rel="stylesheet" href="./CSS/textstyles.css" />
+    <link rel="stylesheet" href="./CSS/cover.css" />
+    <link rel="stylesheet" href="./CSS/body_LP.css" />
+    <link rel="stylesheet" href="./CSS/stylesheet.css" />
+    <link rel="stylesheet" href="./CSS/slideshow.css" />
+    <link rel="stylesheet" href="./CSS/nav-bar.css" />
+  </head>
 
-</head>
-
-<body class="black_background">
-    
-<header>
-    <nav>
+  <body class="black_background">
+    <header>
+      <nav>
         <div class="top-nav">
-            <img class="icon-img" src="./Assets/icon/user.png">
-            <img class="icon-img" src="./Assets/icon/search.png">
-            <img class="icon-img" src="./Assets/icon/global.png">
+          <img class="icon-img" src="./Assets/icon/user.png" />
+          <img class="icon-img" src="./Assets/icon/search.png" />
+          <img class="icon-img" src="./Assets/icon/global.png" />
         </div>
-        <img class="brand" src="./Assets/logo vikingtidmuseet.png"/>
-        <input type="checkbox" id="nav">
+        <a href="./index.html"
+          ><img class="brand" src="./Assets/logo vikingtidmuseet.png"
+        /></a>
+        <input type="checkbox" id="nav" />
         <label for="nav">
           <span></span>
           <span></span>
           <span></span>
         </label>
         <ul class="menu">
-          <li>Experiences</li>
-          <li>Café</li>
-          <li>Gift shop</li>
-          <li>Plan your visit</li>
-          <li>Tickets</li>
+          <li>
+            <a class="menu-font" href="./Explore_the_museum.html"
+              >Experiences</a
+            >
+          </li>
+          <li><a class="menu-font" href="">Café</a></li>
+          <li><a class="menu-font" href="">Gift shop</a></li>
+          <li>
+            <a class="menu-font" href="./Plan_your_trip.html"
+              >Plan your visit</a
+            >
+          </li>
+          <li><a class="menu-font" href="./Tickets.html">Tickets</a></li>
         </ul>
       </nav>
-    
-</header>
-
-
+    </header>
     <div class="Hero">
-        <div class="hero-container">
-            <img src="./Assets/Museet.jpg" alt="" class="hero__cover">
-            
-            <div class="hero_box card_box white_text">
-                <p>Mon - Fri 10-19 | Sat - Sun 11-20</p>
-                <h1>Explore the Museum of the Viking Age</h1>
-            </div>
-            
-        </div>
-    </div>
+      <div class="hero-container">
+        <img src="./Assets/Museet.jpg" alt="" class="hero__cover" />
 
+        <div class="hero_box card_box white_text">
+          <p>Mon - Fri 10-19 | Sat - Sun 11-20</p>
+          <h1>Explore the Museum of the Viking Age</h1>
+        </div>
+      </div>
+    </div>
 
     <div class="con sli">
-     <div class="container">
+      <div class="container">
         <div class="slideshow-container">
-            <div class="mySlides fade">
-                <div class="card-slid">
-                    <img class="slide-img img-size-slider" src="./img/sko-viking-900.png" alt="900 year viking sho">
-                    <div class="slide-right-text">
-                        <h3 class="title-slid">Utstilingens navn</h3>
-                        <p class="p-tag-slid">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti possimus at ullam a praesentium neque eaque sit ea dicta ipsa, non, veniam eius aut numquam perspiciatis quidem laborum, reprehenderit amet.</p>
-                        <p class="p-tag-slid">02.01.22 - 02.02.22</p>
-                        <button class="c-a-btn-slide">Buy tickets</button>
-                    </div>
-                </div>
+          <div class="mySlides fade">
+            <div class="card-slid">
+              <img
+                class="slide-img img-size-slider"
+                src="./img/sko-viking-900.png"
+                alt="900 year viking sho"
+              />
+              <div class="slide-right-text">
+                <h3 class="title-slid">Utstilingens navn</h3>
+                <p class="p-tag-slid">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Deleniti possimus at ullam a praesentium neque eaque sit ea
+                  dicta ipsa, non, veniam eius aut numquam perspiciatis quidem
+                  laborum, reprehenderit amet.
+                </p>
+                <p class="p-tag-slid">02.01.22 - 02.02.22</p>
+                <button class="c-a-btn-slide">Buy tickets</button>
+              </div>
             </div>
-            <div class="mySlides fade">
-                <div class="card-slid">
-                    <img class="slide-img img-size-slider" src="./img/face-stick.jpeg" alt="900 year viking sho">
-                    <div class="slide-right-text">
-                        <h3 class="title-slid">Utstilingens navn</h3>
-                        <p class="p-tag-slid">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti possimus at ullam a praesentium neque eaque sit ea dicta ipsa, non, veniam eius aut numquam perspiciatis quidem laborum, reprehenderit amet.</p>
-                        <p class="p-tag-slid">02.01.22 - 02.02.22</p>
-                        <button class="c-a-btn-slide">Buy tickets</button>
-                    </div>
-                </div>
+          </div>
+          <div class="mySlides fade">
+            <div class="card-slid">
+              <img
+                class="slide-img img-size-slider"
+                src="./img/face-stick.jpeg"
+                alt="900 year viking sho"
+              />
+              <div class="slide-right-text">
+                <h3 class="title-slid">Utstilingens navn</h3>
+                <p class="p-tag-slid">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Deleniti possimus at ullam a praesentium neque eaque sit ea
+                  dicta ipsa, non, veniam eius aut numquam perspiciatis quidem
+                  laborum, reprehenderit amet.
+                </p>
+                <p class="p-tag-slid">02.01.22 - 02.02.22</p>
+                <button class="c-a-btn-slide">Buy tickets</button>
+              </div>
             </div>
-            <div class="mySlides fade">
-                <div class="card-slid">
-                    <img class="slide-img img-size-slider" src="./img/bed.png" alt="900 year viking sho">
-                    <div class="slide-right-text">
-                        <h3 class="title-slid">Utstilingens navn</h3>
-                        <p class="p-tag-slid">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti possimus at ullam a praesentium neque eaque sit ea dicta ipsa, non, veniam eius aut numquam perspiciatis quidem laborum, reprehenderit amet.</p>
-                        <p class="p-tag-slid">02.01.22 - 02.02.22</p>
-                        <button class="c-a-btn-slide">Buy tickets</button>
-                    </div>
-                </div>
+          </div>
+          <div class="mySlides fade">
+            <div class="card-slid">
+              <img
+                class="slide-img img-size-slider"
+                src="./img/bed.png"
+                alt="900 year viking sho"
+              />
+              <div class="slide-right-text">
+                <h3 class="title-slid">Utstilingens navn</h3>
+                <p class="p-tag-slid">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Deleniti possimus at ullam a praesentium neque eaque sit ea
+                  dicta ipsa, non, veniam eius aut numquam perspiciatis quidem
+                  laborum, reprehenderit amet.
+                </p>
+                <p class="p-tag-slid">02.01.22 - 02.02.22</p>
+                <button class="c-a-btn-slide">Buy tickets</button>
+              </div>
             </div>
-            <div class="mySlides fade">
-                <div class="card-slid">
-                    <img class="slide-img img-size-slider" src="./img/sko-viking-900.png" alt="900 year viking sho">
-                    <div class="slide-right-text">
-                        <h3 class="title-slid">Utstilingens navn</h3>
-                        <p class="p-tag-slid">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti possimus at ullam a praesentium neque eaque sit ea dicta ipsa, non, veniam eius aut numquam perspiciatis quidem laborum, reprehenderit amet.</p>
-                        <p class="p-tag-slid">02.01.22 - 02.02.22</p>
-                        <button class="c-a-btn-slide">Buy tickets</button>
-                    </div>
-                </div>
+          </div>
+          <div class="mySlides fade">
+            <div class="card-slid">
+              <img
+                class="slide-img img-size-slider"
+                src="./img/sko-viking-900.png"
+                alt="900 year viking sho"
+              />
+              <div class="slide-right-text">
+                <h3 class="title-slid">Utstilingens navn</h3>
+                <p class="p-tag-slid">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Deleniti possimus at ullam a praesentium neque eaque sit ea
+                  dicta ipsa, non, veniam eius aut numquam perspiciatis quidem
+                  laborum, reprehenderit amet.
+                </p>
+                <p class="p-tag-slid">02.01.22 - 02.02.22</p>
+                <button class="c-a-btn-slide">Buy tickets</button>
+              </div>
             </div>
-            <div class="mySlides fade">
-                <div class="card-slid">
-                    <img class="slide-img img-size-slider" src="./img/face-stick.jpeg" alt="900 year viking sho">
-                    <div class="slide-right-text">
-                        <h3 class="title-slid">Utstilingens navn</h3>
-                        <p class="p-tag-slid">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti possimus at ullam a praesentium neque eaque sit ea dicta ipsa, non, veniam eius aut numquam perspiciatis quidem laborum, reprehenderit amet.</p>
-                        <p class="p-tag-slid">02.01.22 - 02.02.22</p>
-                        <button class="c-a-btn-slide">Buy tickets</button>
-                    </div>
-                </div>
+          </div>
+          <div class="mySlides fade">
+            <div class="card-slid">
+              <img
+                class="slide-img img-size-slider"
+                src="./img/face-stick.jpeg"
+                alt="900 year viking sho"
+              />
+              <div class="slide-right-text">
+                <h3 class="title-slid">Utstilingens navn</h3>
+                <p class="p-tag-slid">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Deleniti possimus at ullam a praesentium neque eaque sit ea
+                  dicta ipsa, non, veniam eius aut numquam perspiciatis quidem
+                  laborum, reprehenderit amet.
+                </p>
+                <p class="p-tag-slid">02.01.22 - 02.02.22</p>
+                <button class="c-a-btn-slide">Buy tickets</button>
+              </div>
             </div>
-    
+          </div>
         </div>
-        <br>
-    
+        <br />
+
         <div class="dots-man">
-            <span class="dot" onclick="currentSlide(1)"></span>
-            <span class="dot" onclick="currentSlide(2)"></span>
-            <span class="dot" onclick="currentSlide(3)"></span>
-            <span class="dot" onclick="currentSlide(4)"></span>
-            <span class="dot" onclick="currentSlide(5)"></span>
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
+          <span class="dot" onclick="currentSlide(5)"></span>
         </div>
-    </div>
+      </div>
     </div>
 
     <div class="con app">
-        <h1>APP</h1>   
+      <h1>APP</h1>
     </div>
-    
-    <div class="con ren">
-        <video autoplay muted loop class="Video">
-            <source src="./Assets/full_v001_0001-0618.mp4" type="video/mp4">
-            Your browser does not support HTML5 video.
-          </video>
-          <div class="Vidcta">
-              <h2> Explore the museum! </h2>
 
-              <button class="TmTe"> <h3>Take me to experiences</h3> </button>
-          </div>
+    <div class="con ren">
+      <video autoplay muted loop class="Video">
+        <source src="./Assets/full_v001_0001-0618.mp4" type="video/mp4" />
+        Your browser does not support HTML5 video.
+      </video>
+      <div class="Vidcta">
+        <h2>Explore the museum!</h2>
+
+        <button class="TmTe"><h3>Take me to experiences</h3></button>
+      </div>
     </div>
 
     <footer>
-        <div class="footer-wrapper footer-style">
-            <div class="footer-wrapper__logo">
-                <img src="./assets/logo vikingtidmuseet.png">
-            </div>
-            <div class="footer-wrapper__info">
-                <div class="footer-wrapper__box footer-wrapper__box--medium footer__text--small schedule-order">
-                    Mon-Fri 10-19<br>Sat-Sun 11-20
-                </div>
-                <div class="footer-wrapper__box footer-wrapper__box--big footer__text--small address-order">
-                    Huk Aveny 35<br>0287 Oslo
-                </div>
-                <div class="footer-wrapper__box footer-wrapper__box--small footer__text--big contact-order">
-                    Contact us
-                </div>
-                <div class="footer-wrapper__box footer-wrapper__box--small footer__text--big about-order">
-                    About us
-                </div>
-                <div class="footer-wrapper__box footer-wrapper__box--medium footer__text--small--underline--opacity privacy-order">
-                    Privacy Policy
-                </div>
-                <div class="footer-wrapper__box footer-wrapper__box--big footer__text--small--opacity copyright-order" >
-                    Museum of the Viking Age © 2021
-                </div>
-                <div class="footer-wrapper__box footer-wrapper__box--small footer__text--big faq-order">
-                    FAQ
-                </div>
-                <div class="box footer-wrapper__box--small social-order">
-                    <img class="i__img-margin-fix" src="./assets/facebook.png">
-                    <img class="i__img" src="./assets/instagram.png">
-                </div>
-            </div>
+      <div class="footer-wrapper footer-style">
+        <div class="footer-wrapper__logo">
+          <img src="./assets/logo vikingtidmuseet.png" />
         </div>
+        <div class="footer-wrapper__info">
+          <div
+            class="
+              footer-wrapper__box footer-wrapper__box--medium
+              footer__text--small
+              schedule-order
+            "
+          >
+            Mon-Fri 10-19<br />Sat-Sun 11-20
+          </div>
+          <div
+            class="
+              footer-wrapper__box footer-wrapper__box--big
+              footer__text--small
+              address-order
+            "
+          >
+            Huk Aveny 35<br />0287 Oslo
+          </div>
+          <div
+            class="
+              footer-wrapper__box footer-wrapper__box--small
+              footer__text--big
+              contact-order
+            "
+          >
+            Contact us
+          </div>
+          <div
+            class="
+              footer-wrapper__box footer-wrapper__box--small
+              footer__text--big
+              about-order
+            "
+          >
+            About us
+          </div>
+          <div
+            class="
+              footer-wrapper__box footer-wrapper__box--medium
+              footer__text--small--underline--opacity
+              privacy-order
+            "
+          >
+            Privacy Policy
+          </div>
+          <div
+            class="
+              footer-wrapper__box footer-wrapper__box--big
+              footer__text--small--opacity
+              copyright-order
+            "
+          >
+            Museum of the Viking Age © 2021
+          </div>
+          <div
+            class="
+              footer-wrapper__box footer-wrapper__box--small
+              footer__text--big
+              faq-order
+            "
+          >
+            FAQ
+          </div>
+          <div class="box footer-wrapper__box--small social-order">
+            <img class="i__img-margin-fix" src="./assets/facebook.png" />
+            <img class="i__img" src="./assets/instagram.png" />
+          </div>
+        </div>
+      </div>
     </footer>
-  
-  <script src="js/slideshow.js"></script>
 
-</body>
-
-
+    <script src="js/slideshow.js"></script>
+  </body>
 </html>
