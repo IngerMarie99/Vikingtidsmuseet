@@ -3,7 +3,8 @@
 .card__wrapper {
     display: flex;
     flex-flow: row wrap;
-    padding-top: 45px;  
+    padding-top: 45px; 
+    padding-bottom: 45px; 
     max-width: 322px;
     margin: 0 auto;  
     
