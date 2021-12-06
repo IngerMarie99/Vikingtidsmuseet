@@ -1,0 +1,35 @@
+.vid-ex {
+    z-index: -2;
+    margin: auto;
+    max-width: 100%;
+ }
+
+ @media screen and (min-width: 500px) {
+    .vid-ex {
+       height: auto;
+    }
+ }
+
+ .text {
+    padding-top: 10px;
+ }
+
+ .vid-textbox-wrapper {
+    text-align: left;
+    width: 90%;
+    height: auto;
+    padding: 50px;
+    margin: 3rem auto;
+    box-shadow: -2px 3px 5px 4px rgba(0, 0, 0, 0.25);
+    display: block;
+    transform: translateY(-80px);
+    background-color: var(--Car-bx);
+ }
+
+ @media screen and (min-width: 500px) {
+    .vid-textbox-wrapper {
+       margin: 3rem auto;
+       max-width: 1440px;
+       padding: 80px;
+    }
+ }
