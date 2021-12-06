@@ -25,6 +25,26 @@ header {
     transform: translateY(-70px);
 }
 
+.Hero-but{
+        border: solid 2px var(--W-tx);
+        padding: 16px;
+        color: var(--W-tx);
+        font-size: 20px;
+        background-color: #202020;
+        margin-top: 32px;
+    }
+    
+    .Hero-but:hover{
+        border: solid 2px var(--W-tx);
+        padding: 16px;
+        color: #202020;
+        font-size: 20px;
+        background-color: var(--Wh-bg);
+        margin-top: 32px;
+        transition: color 0.3s ease;
+      transition: 0.5s ease;
+    }
+
 .sli {
     text-align: center;
     height: 450px;
