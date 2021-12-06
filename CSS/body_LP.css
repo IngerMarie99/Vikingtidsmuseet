@@ -32,11 +32,6 @@ header {
 }
 
 .app {
-    align-items: center;
-    align-self: center;
-    align-content: center;
-    justify-self: center;
-
     text-align: center;
     height: 400px;
     width: auto;
@@ -48,9 +43,8 @@ header {
 .ren {
     height: auto;
     width: 100%;
-    max-width: 1800px;
     position: relative;
-    margin: 4rem 0 4rem 0;
+    margin: 4rem 0;
 }
 
 .Video{
