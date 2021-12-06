@@ -30,3 +30,17 @@
     padding-top: 20px;
     z-index: 3;
 }
+
+.hero_box_secondary {
+    position: absolute;
+    height: 279px;
+    width: 476px;
+    left: 205px;
+    bottom: 70px;
+    top: 170px;
+    border-radius: 0px;
+    padding-left: 35px;
+    padding-right: 24px;
+    padding-top: 50px;
+    z-index: 3;
+}
