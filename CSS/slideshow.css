@@ -3,7 +3,7 @@
 }
 
 .slideshow-container {
-  max-width: 650px;
+  max-width: 755px;
 
   margin: auto;
 }
@@ -67,20 +67,31 @@
   top: -10px;
   left: -10px;
   height: 487px;
+
 }
 
 .title-slid {
   color: #f4f4f4;
+  text-align: left;
+}
+
+p.p-tag-slid-date {
+  color: #f4f4f4;
+  margin: 16px 0px 16px 0px;
+  text-align: left;
+  font-weight: lighter;
+
 }
 
 .p-tag-slid {
   color: #f4f4f4;
   margin: 16px 0px 16px 0px;
+  text-align: left;
 }
 
 .card-slid {
   display: flex;
-  width: 649px;
+  width: 760px;
   height: 466px;
 }
 
@@ -91,6 +102,8 @@
   font-size: 20px;
   background-color: #202020;
   margin-top: 32px;
+  text-align: left;
+  margin-right: 170px;
 }
 
 .c-a-btn-slide:hover {
@@ -113,7 +126,7 @@
 }
 
 .img-size-slider {
-  width: 50%;
+  width: 430px;
 }
 
 .slide-img {
@@ -162,5 +175,16 @@
     top: 0px;
     left: 0px;
     height: 341px;
+  }
+
+  .c-a-btn-slide {
+    border: solid 2px #e08f5b;
+    padding: 16px;
+    color: #e08f5b;
+    font-size: 20px;
+    background-color: #202020;
+    margin-top: 16px;
+    text-align: left;
+    margin-right: 210px;
   }
 }
