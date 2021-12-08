@@ -51,8 +51,7 @@ footer {
     padding-left: 26px;
   }
 
-  
-  
+ 
   @media screen and (min-width: 768px) {
     .footer-wrapper {
       flex-flow: row nowrap;
@@ -64,9 +63,15 @@ footer {
     display: flex;
     flex-flow: row wrap;
     flex-basis: 1180px;
+    margin-top: 39px;
   }
   
   .i__img {
+    height: 24px;
+  }
+
+  .i__img-margin-fix {
+    margin-right: 8px;
     height: 24px;
   }
   
@@ -144,6 +149,7 @@ footer {
     padding-bottom: 44px;
 }
 
+
 @media screen and (min-width: 768px) {
     .schedule-order {
         order: 1;
@@ -168,20 +174,118 @@ footer {
     .privacy-order{
         order: 5;
         padding-bottom: 0px;
+        margin-top: 16px;
     }
 
     .copyright-order{
         order: 6;
         padding-bottom: 0px;
+        margin-top: 16px;
     }
 
     .faq-order {
         order: 7;
         padding-bottom: 0px;
+        margin-top: 16px;
     }
 
     .social-order {
         order: 8;
         padding-bottom: 0px;
+        margin-top: 16px;
     }
+}
+
+
+.HTGT {
+  max-width: 322px;
+  margin: 0 auto;
+  margin-bottom: 45px;
+}
+
+@media screen and (min-width:768px) {
+  .HTGT {
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-bottom: 116px;
+  }
+  
+}
+
+.HTGT__Wrapper {
+  max-width: 322px;
+  margin: 0 auto;
+  display: flex;
+  flex-flow:wrap;
+  margin-bottom: 70px;
+
+}
+
+@media screen and (min-width:500px) {
+  .HTGT__Wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow:nowrap;
+    gap: 117px;
+    margin-bottom: 200px;
+  }
+}
+
+.HTGT__textcontent {
+  width:322px;
+  padding-bottom: 50px;
+}
+
+@media screen and (min-width:500px) {
+  .HTGT__textcontent {
+    width:500px;
+    padding-bottom: 50px;
+  }
+}
+.HTGT__textcontent__wrapper {
+  display: flex;
+  gap: 12px;
+}
+
+.HTGT__content__wrapper__p {
+  padding-top: 20px;
+}
+
+
+.HTGT__textcontent__part {
+  padding-bottom: 50px;
+}
+
+@media screen and (min-width:500px) {
+  .HTGT__textcontent__part {
+    padding-bottom: 20px;
+  }
+}
+
+.HTGT__map {
+  width:322px;
+}
+
+@media screen and (min-width:500px) {
+  .HTGT__map {
+    width:661px;
+  }
+}
+
+.HTGT__map img {
+  width:322px;
+  height: 450px;
+  object-fit: cover;
+  max-width: 322px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width:500px) {
+  .HTGT__map img {
+    width:661px;
+    height: 562px;
+    object-fit: cover;
+    max-width: 1440px;
+  }
 }
