@@ -32,10 +32,19 @@ nav {
   );
 }
 
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
+#nav ul {
+  position: absolute;
+  padding: 0;
+  left: 0;
+  display: none;
+}
+
+#nav li ul {
+  display: none;
+}
+
+#nav li:hover ul{
+  display: block;
 }
 
 .bg-nav {
