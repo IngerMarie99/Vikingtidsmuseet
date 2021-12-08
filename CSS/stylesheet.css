@@ -183,45 +183,54 @@ footer {
 
 
 .HTGT {
-  max-width: 1440px;
-  margin: 0 auto;
-  
-
-}
-.HTGT__wrapper {
-  display: flex;
-  flex-flow: row wrap;
   max-width: 322px;
-  margin: 0 auto; 
-  padding-top:100px
+  margin: 0 auto;
+  margin-bottom: 45px;
 }
 
-@media screen and (min-width:500px) {
-  .HTGT__wrapper {
-    display: flex;
-    flex-flow: row wrap;
+@media screen and (min-width:768px) {
+  .HTGT {
     max-width: 1440px;
     margin: 0 auto;
-    padding-top:100px
+    margin-bottom: 116px;
   }
   
 }
 
-.HTGT__content{
-  width: 565px;
-  padding-bottom: 20px;
-}
-
-.HTGT__content h2{
-  text-align: left;
-}
-
-.HTGT__content__wrapper {
+.HTGT__Wrapper {
+  max-width: 322px;
+  margin: 0 auto;
   display: flex;
+  flex-flow:wrap;
+  margin-bottom: 70px;
+
 }
 
-.HTGT__content__wrapper h2 {
-  padding-left: 12px;
+@media screen and (min-width:500px) {
+  .HTGT__Wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow:nowrap;
+    gap: 117px;
+    margin-bottom: 200px;
+  }
+}
+
+.HTGT__textcontent {
+  width:322px;
+  padding-bottom: 50px;
+}
+
+@media screen and (min-width:500px) {
+  .HTGT__textcontent {
+    width:500px;
+    padding-bottom: 50px;
+  }
+}
+.HTGT__textcontent__wrapper {
+  display: flex;
+  gap: 12px;
 }
 
 .HTGT__content__wrapper__p {
@@ -229,15 +238,40 @@ footer {
 }
 
 
-.HTGT__map {
-  width: 322px;
-  background-color: rgb(130, 238, 238);
+.HTGT__textcontent__part {
+  padding-bottom: 50px;
 }
 
-@media screen and  (min-width:500px){
-  .HTGT__map {
-    width: 690px;
-    background-color: rgb(130, 238, 238);
+@media screen and (min-width:500px) {
+  .HTGT__textcontent__part {
+    padding-bottom: 20px;
   }
-  
 }
+
+.HTGT__map {
+  width:322px;
+}
+
+@media screen and (min-width:500px) {
+  .HTGT__map {
+    width:661px;
+  }
+}
+
+.HTGT__map img {
+  width:322px;
+  height: 450px;
+  object-fit: cover;
+  max-width: 322px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width:500px) {
+  .HTGT__map img {
+    width:661px;
+    height: 562px;
+    object-fit: cover;
+    max-width: 1440px;
+  }
+}
+
