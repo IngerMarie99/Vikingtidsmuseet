@@ -32,6 +32,12 @@ nav {
   );
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
 .bg-nav {
   border-bottom: solid 1 white;
 }
@@ -41,7 +47,8 @@ nav h2 {
 }
 
 .menu {
-  position: relative;
+  position: sticky;
+  top: 0px;
   margin-top: 55px;
   margin-right: 25px;
   float: right;
