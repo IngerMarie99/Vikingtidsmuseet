@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vikingtidsmuseet</title>
     <link rel="stylesheet" href="./CSS/reset.css">
     <link rel="stylesheet" href="./CSS/colors.css">
@@ -14,8 +14,37 @@
     <link rel="stylesheet" href="./CSS/slideshow.css">
     <link rel="stylesheet" href="./CSS/Card_img_text.css">
     <link rel="stylesheet" href="./CSS/video.css">
-
-</head>
+    <link rel="stylesheet" href="./CSS/nav-bar.css" />
+  </head>
+  <header>
+    <nav>
+      <div class="top-nav">
+        <img class="icon-img" src="./Assets/icon/user.png" />
+        <img class="icon-img" src="./Assets/icon/search.png" />
+        <img class="icon-img" src="./Assets/icon/global.png" />
+      </div>
+      <a href="./index.html"
+        ><img class="brand" src="./Assets/logo vikingtidmuseet.png"
+      /></a>
+      <input type="checkbox" id="nav" />
+      <label for="nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+      <ul class="menu">
+        <li>
+          <a class="menu-font" href="./Explore_the_museum.html">Experiences</a>
+        </li>
+        <li><a class="menu-font" href="">Café</a></li>
+        <li><a class="menu-font" href="">Gift shop</a></li>
+        <li>
+          <a class="menu-font" href="./Plan_your_trip.html">Plan your visit</a>
+        </li>
+        <li><a class="menu-font" href="./Tickets.html">Tickets</a></li>
+      </ul>
+    </nav>
+  </header>
 
 <body>
     
@@ -310,14 +339,10 @@
                     </div>
                 </div>
             </div>
-        </footer>
-               
+        </footer>       
         </section>
         <script src="js/slideshow.js"></script>
 
     </main>
-
-
-</body>
-
+  </body>
 </html>
