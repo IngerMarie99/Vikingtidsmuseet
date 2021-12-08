@@ -51,6 +51,8 @@ footer {
     padding-left: 26px;
   }
 
+  /*-----------------------------------------*/
+
   
   
   @media screen and (min-width: 768px) {
@@ -64,9 +66,15 @@ footer {
     display: flex;
     flex-flow: row wrap;
     flex-basis: 1180px;
+    margin-top: 39px;
   }
   
   .i__img {
+    height: 24px;
+  }
+
+  .i__img-margin-fix {
+    margin-right: 8px;
     height: 24px;
   }
   
@@ -144,6 +152,7 @@ footer {
     padding-bottom: 44px;
 }
 
+
 @media screen and (min-width: 768px) {
     .schedule-order {
         order: 1;
@@ -168,20 +177,25 @@ footer {
     .privacy-order{
         order: 5;
         padding-bottom: 0px;
+        margin-top: 16px;
     }
 
     .copyright-order{
         order: 6;
         padding-bottom: 0px;
+        margin-top: 16px;
     }
 
     .faq-order {
         order: 7;
         padding-bottom: 0px;
+        margin-top: 16px;
     }
 
     .social-order {
         order: 8;
         padding-bottom: 0px;
+        margin-top: 16px;
     }
+
 }
