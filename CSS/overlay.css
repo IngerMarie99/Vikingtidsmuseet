@@ -1,0 +1,77 @@
+.overlay__wrapper {
+    display: flex; 
+    max-width: auto;
+    flex-flow: row wrap;
+    height: auto;
+    margin: 0 auto;
+    background-color: var(--Car-bx);
+    color: var(--W-tx);
+    box-shadow: -2px 3px 5px 4px rgba(0, 0, 0, 0.25);
+}
+
+@media screen and (min-width: 500px) {
+    .overlay__wrapper {
+        display: flex; 
+        flex-flow: nowrap;
+        max-width: 1440px;
+        height: 830px;
+        margin: 0 auto;
+    }
+}
+
+.overlay_img{
+    height: 60%;
+    width: 100%;
+}
+
+@media screen and (min-width: 500px) {
+    .overlay_img {
+        height: 100%;
+        width: 50%;
+    }
+}
+
+.overlay_text {
+    text-align: left;
+    width: auto;
+    height: auto;
+    padding-left: 50px;
+    padding-right: 20px;
+    padding-top: 20px;
+    position: relative;
+}
+
+@media screen and (min-width: 500px) {
+    .overlay_text {
+        height: 834px;
+        padding-left: 110px;
+        padding-right: 60px;
+        padding-top: 90px;
+        position: relative;
+    }
+}
+
+
+.o-text{
+    padding-top: 10px;
+}
+
+@media screen and (min-width: 500px) {
+    .o-text {
+        padding-top: 60px;
+    }
+}
+
+.x-out {
+    background-color: transparent;
+    color: var(--W-tx);
+    font-size: 2rem;
+    border: none;
+    position: absolute;
+    top: 0.8rem;
+    right: 1rem;
+}
+
+.o-button {
+    margin-bottom: 20px;
+}

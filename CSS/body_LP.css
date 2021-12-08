@@ -8,7 +8,7 @@ header {
     width: 100%;
     height: 100px;
     backdrop-filter: blur(4px);
-    z-index: 100;
+    z-index: 0;
     display: block;
     position: relative;
 }
@@ -47,7 +47,7 @@ header {
 
 .sli {
     text-align: center;
-    height: 450px;
+    height: auto;
     margin: 3rem 0 10rem 0;
 }
 
@@ -65,27 +65,26 @@ header {
     width: 100%;
     position: relative;
     margin: 4rem 0;
+
+.Video {
+  height: auto;
+  width: 100%;
+  max-width: 1800px;
+  margin: 0 auto;
 }
 
-.Video{
-    height: auto;
-    width: 100%;
-    max-width: 1800px;
-    margin: 0 auto;
-}
-
-.Video video{
-    width: 100%;
-    height: 100%;
-    z-index: 0;
+.Video video {
+  width: 100%;
+  height: 100%;
+  z-index: 0;
 }
 
 .Vidcta {
-    position: absolute;
-    z-index: 1;
-    top: 55%;
-    left: 10%;
-    color: #F4F4F4 ;
+  position: absolute;
+  z-index: 0;
+  top: 55%;
+  left: 10%;
+  color: #f4f4f4;
 }
 
 .TmTe {
@@ -100,5 +99,5 @@ header {
 footer {
     background-color: var(--Bl-bg);
     width: 100%;
-    height: 100px;
+    height: auto;
 }
