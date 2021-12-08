@@ -3,7 +3,8 @@
 .card__wrapper {
     display: flex;
     flex-flow: row wrap;
-    padding-top: 45px;  
+    padding-top: 45px; 
+    padding-bottom: 45px; 
     max-width: 322px;
     margin: 0 auto;  
     
@@ -46,7 +47,7 @@
     padding-left: 35px;
     padding-right: 35px;
     padding-top: 40px;
-
+    background-color:var(--Car-bx) ;
     box-shadow: -2px 3px 5px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -81,8 +82,8 @@
     padding-left: 35px;
     padding-right: 35px;
     padding-top: 40px;
-
     box-shadow: -2px 3px 5px 4px rgba(0, 0, 0, 0.25);
+    order: 5
 
 }
 
@@ -95,8 +96,8 @@
         padding-left: 80px;
         padding-right: 46px;
         padding-top: 45px;
-    
         box-shadow: -2px 3px 5px 4px rgba(0, 0, 0, 0.25);
+        order: 0;
     }
 }
 
