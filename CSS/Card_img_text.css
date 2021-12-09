@@ -63,7 +63,7 @@
     height:341px;
     padding-left: 35px;
     padding-right: 35px;
-    padding-top: 40px;
+    padding-top: 100px;
     background-color:var(--Car-bx) ;
     box-shadow: -2px 3px 5px 4px rgba(0, 0, 0, 0.25);
 }

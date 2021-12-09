@@ -20,7 +20,7 @@ header {
 
 nav {
   height: 175px;
-  position: fixed;
+  /*osition: fixed;*/
   top: 0;
   padding: 0px 0px 32px 0px;
   width: 100%;
@@ -200,6 +200,6 @@ input[type="checkbox"]:checked ~ label span:nth-child(3) {
   }
 
   p {
-    margin: 35px 50px;
+    margin: 30px 20px;
   }
 }
