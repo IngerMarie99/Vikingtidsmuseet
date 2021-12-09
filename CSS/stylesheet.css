@@ -333,3 +333,9 @@ footer {
     object-fit: cover;
   }
 }
+
+
+
+.nomarginplease {
+  margin: 0;
+}
