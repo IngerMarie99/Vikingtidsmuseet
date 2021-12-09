@@ -29,13 +29,28 @@ header {
 .Hero{
     width: 100%;
     z-index: 0;
-    height: 30vh;
+    height: 50vh;
 }
 
 @media screen and (min-width: 500px){
     .Hero{
         width: 100%;
-        height: 80vh;
+        height: 100%;
+        z-index: 0;
+        transform: translateY(-70px);
+    }
+}
+
+.He-1{
+    width: 100%;
+    z-index: 0;
+    height: 20vh;
+}
+
+@media screen and (min-width: 500px){
+    .He-1{
+        width: 100%;
+        height: 50vh;
         z-index: 0;
         transform: translateY(-70px);
     }
