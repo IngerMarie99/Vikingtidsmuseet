@@ -31,7 +31,7 @@
           <span></span>
           <span></span>
         </label>
-        <ul class="menu">
+        <ul class="menu" id="nav">
           <li>
             <a class="menu-font" href="./Explore_the_museum.html"
               >Experiences</a
@@ -40,9 +40,48 @@
           <li><a class="menu-font" href="">Café</a></li>
           <li><a class="menu-font" href="">Gift shop</a></li>
           <li>
-            <a class="menu-font" href="./Plan_your_trip.html"
+            <a class="menu-font dropdown" href="./Plan_your_trip.html"
               >Plan your visit</a
             >
+
+            <ul>
+              <div class="drop-container flex">
+                <div class="">
+                  <div class="spacing-dropdown">
+                    <li class="dropdown-title"><a class="drop-d-a-t" href="">Map</a></li>
+                    <div class="mini-space"></div>
+                    <li><a class="drop-d-a d-text" href="">Cafè</a></li>
+                    <li><a class="drop-d-a d-text" href="">Toalett</a></li>
+                    <li><a class="drop-d-a d-text" href="">Baby changing room</a></li>
+                    <li><a class="drop-d-a d-text" href="">Exhibition</a></li>
+                  </div>
+                </div>
+                <div class="spacing-dropdown">
+                  <li class="dropdown-title"><a class="drop-d-a-t" href="">Handicap</a></li>
+                  <div class="mini-space"></div>
+                  <li><a class="drop-d-a d-text" href="">Wheelchair rental</a></li>
+                  <li><a class="drop-d-a d-text" href="">Help</a></li>
+                  <li><a class="drop-d-a d-text" href="">Headset</a></li>
+                  <li><a class="drop-d-a d-text" href="">Quiet zone</a></li>
+                </div>
+                <div class="spacing-dropdown">
+                  <li class="dropdown-title"><a class="drop-d-a-t" href="">How to get there</a></li>
+                  <div class="mini-space"></div>
+                  <li><a class="drop-d-a d-text" href="">Distance</a></li>
+                  <li><a class="drop-d-a d-text" href="">Public transport</a></li>
+                  <li><a class="drop-d-a d-text" href="">Parking & shuttlebus</a></li>
+                </div>
+                <div class="spacing-dropdown">
+                  <li class="dropdown-title"><a class="drop-d-a-t" href="">General info</a></li>
+                  <div class="mini-space"></div>
+                  <li><a class="drop-d-a d-text" href="">Lockers info</a></li>
+                  <li><a class="drop-d-a d-text" href="">Tour guides</a></li>
+                  <li><a class="drop-d-a d-text" href="">Expedia</a></li>
+                </div>
+              </div>
+            </ul>
+
+
           </li>
           <li><a class="menu-font" href="./Tickets.html">Tickets</a></li>
         </ul>
@@ -110,16 +149,25 @@
                     </div>
                 </div>
             </div>
-            <div class="mySlides fade">
-                <div class="card-slid">
-                    <img class="slide-img img-size-slider" src="./img/face-stick.jpeg" alt="900 year viking sho">
-                    <div class="slide-right-text">
-                        <h3 class="title-slid">Utstilingens navn</h3>
-                        <p class="p-tag-slid">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti possimus at ullam a praesentium neque eaque sit ea dicta ipsa, non, veniam eius aut numquam perspiciatis quidem laborum, reprehenderit amet.</p>
-                        <p class="p-tag-slid">02.01.22 - 02.02.22</p>
-                        <button class="c-a-btn-slide">Tickets</button>
-                    </div>
-                </div>
+          </div>
+          <div class="mySlides fade">
+            <div class="card-slid">
+              <img
+                class="slide-img img-size-slider"
+                src="./img/face-stick.jpeg"
+                alt="900 year viking sho"
+              />
+              <div class="slide-right-text">
+                <h3 class="title-slid">Utstilingens navn</h3>
+                <p class="p-tag-slid">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Deleniti possimus at ullam a praesentium neque eaque sit ea
+                  dicta ipsa, non, veniam eius aut numquam perspiciatis quidem
+                  laborum, reprehenderit amet.
+                </p>
+                <p class="p-tag-slid">02.01.22 - 02.02.22</p>
+                <button class="c-a-btn-slide">Tickets</button>
+              </div>
             </div>
           </div>
         </div>
@@ -241,7 +289,6 @@
         </div>
       </div>
     </footer>
-    <scrip src="./js/sticky_nav.js"></script>
     <script src="js/slideshow.js"></script>
   </body>
 </html>
