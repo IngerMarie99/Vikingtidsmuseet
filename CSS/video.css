@@ -1,12 +1,15 @@
 .vid-ex {
     z-index: -2;
-    margin: auto;
-    max-width: 100%;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
  }
 
  @media screen and (min-width: 500px) {
     .vid-ex {
        height: auto;
+       margin: 0 auto;
+       max-width: 1440px;
     }
  }
 

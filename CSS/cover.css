@@ -24,15 +24,31 @@
 .hero_box {
   position: absolute;
   height: 380px;
-  width: 476px;
-  right: 200px;
-  bottom: 70px;
-  top: 358px;
+  width: 80%;
+  bottom: 10px;
   border-radius: 0px;
   padding-left: 24px;
   padding-right: 24px;
   padding-top: 20px;
   z-index: 0;
+  right: 5%;
+
+}
+
+@media screen and (min-width: 500px) {
+  .hero_box {
+    position: absolute;
+    height: 380px;
+    width: 476px;
+    right: 200px;
+    bottom: 70px;
+    top: 358px;
+    border-radius: 0px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 20px;
+    z-index: 0;
+  }
 }
 
 .hero_box_secondary {
