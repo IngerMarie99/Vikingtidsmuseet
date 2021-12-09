@@ -20,7 +20,7 @@ header {
 
 nav {
   height: 175px;
-  position: fixed;
+  /*osition: fixed;*/
   top: 0;
   padding: 0px 0px 32px 0px;
   width: 100%;
@@ -229,6 +229,11 @@ li.dropdown-title {
 
 .mini-space {
   height: 8px;
+
+.top-space {
+  width: 100%;
+  height: 250px;
+
 }
 
 @media (max-width: 768px) {
@@ -266,7 +271,16 @@ li.dropdown-title {
     display: block;
   }
 
+
+  
+
   p {
-    margin: 35px 50px;
+    margin: 30px 20px;
+  }
+
+  .top-space {
+    width: 100%;
+    height: 48px;
   }
 }
+

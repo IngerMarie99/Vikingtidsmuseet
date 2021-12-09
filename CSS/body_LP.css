@@ -1,12 +1,19 @@
 body {
     background-color: #13130D;
     background-image: url(../Assets/kisspng-viking-art-clip-art-vikings-5b478a98e55999.svg);
+    width: 100;
+}
+@media screen and (min-width: 500px){
+    body {
+        width: 100vw;
+    }
+
 }
 
 header {
     background: linear-gradient(180deg, rgba(19,19,13,0.6) 30%, rgba(19,19,13,0.2) 100%);
-    width: 100%;
-    height: 100px;
+    width: 100vw;
+    height: auto;
     backdrop-filter: blur(4px);
     z-index: 0;
     display: block;
@@ -22,7 +29,37 @@ header {
 .Hero{
     width: 100%;
     z-index: 0;
-    transform: translateY(-70px);
+  
+}
+
+@media screen and (min-width: 500px){
+    .Hero{
+        width: 100%;
+        height: 100%;
+        z-index: 0;
+        transform: translateY(-70px);
+    }
+}
+
+.He-1{
+    width: 100%;
+    z-index: 0;
+    height: 20vh;
+}
+
+@media screen and (min-width: 500px){
+    .He-1{
+        width: 100%;
+        height: 50vh;
+        z-index: 0;
+        transform: translateY(-70px);
+    }
+}
+
+.Hero_Tickets{
+        width: 100%;
+        z-index: 0;
+        transform: translateY(200px);
 }
 
 .Hero-but{
@@ -47,44 +84,65 @@ header {
 
 .sli {
     text-align: center;
-    height: auto;
+
     margin: 3rem 0 10rem 0;
 }
 
 .app {
     text-align: center;
-    height: 400px;
-    width: auto;
+    width: 100%;
     max-width: 900px;
     margin: 4rem auto;
     background-color: var(--Wh-bg);
+    object-fit: cover;
+}
+
+@media screen and (min-width: 500px)
+{
+    .app {
+        text-align: center;
+        height: 500px;
+        width: auto;
+        max-width: 1000px;
+        margin: 4rem auto;
+        background-color: var(--Wh-bg);
+    }
+
+}
+
+.app img {
+    width: 100%;
+    object-fit:cover;
+    height: 100%;
 }
 
 .ren {
     height: auto;
     width: 100%;
     position: relative;
-    margin: 4rem 0;
+    margin: 4rem auto;
+    display: flex;
 }
 
 .Video {
   height: auto;
   width: 100%;
-  max-width: 1800px;
+  max-width: 1440px;
   margin: 0 auto;
 }
 
 .Video video {
   width: 100%;
   height: 100%;
+  margin: 0 auto;
   z-index: 0;
 }
 
 .Vidcta {
   position: absolute;
   z-index: 0;
-  top: 55%;
-  left: 10%;
+  bottom: 20px;
+  left: 20%;
   color: #f4f4f4;
 }
 

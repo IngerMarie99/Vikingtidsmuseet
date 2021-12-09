@@ -23,6 +23,7 @@
 
 .card__img {
     height: 242px;
+    margin-top: 250px;
 }
 
 @media screen and (min-width: 500px) {
@@ -31,6 +32,23 @@
         width: 535px;
         height: 402px;
         z-index: -1;
+    }
+}
+
+.card__img__bg {
+    height: 242px;
+    background-color: var(--Car-bx);
+    display: flex;
+}
+
+@media screen and (min-width: 500px) {
+    .card__img__bg {
+        margin-top: 25px;
+        width: 535px;
+        height: 402px;
+        z-index: -1;
+        background-color: var(--Car-bx);
+        display: flex;
     }
 }
 
@@ -43,10 +61,10 @@
 .card__text {
     text-align: left;
     width:322px;
-    height:341px;
+    height:500px;
     padding-left: 35px;
     padding-right: 35px;
-    padding-top: 40px;
+    padding-top: 20px;
     background-color:var(--Car-bx) ;
     box-shadow: -2px 3px 5px 4px rgba(0, 0, 0, 0.25);
 }
@@ -78,12 +96,13 @@
 .card__text--reverse {
     text-align: left;
     width:322px;
-    height:341px;
+    height:500px;
     padding-left: 35px;
     padding-right: 35px;
     padding-top: 40px;
     box-shadow: -2px 3px 5px 4px rgba(0, 0, 0, 0.25);
-    order: 5
+    order: 5;
+    background-color: var(--Car-bx);
 
 }
 
@@ -101,6 +120,7 @@
     }
 }
 
+
 .card__text--reverse p {
     padding-top: 10px;
 }
@@ -109,4 +129,25 @@
     .card__text--reverse p {
         padding-top: 35px;
     }
+}
+
+.card_img_img__qr-code {
+    width: 300px;
+    height: 300px;
+    margin: auto;
+
+}
+
+.card-time-TX {
+    display: flex;
+}
+
+.Tx_start_right{
+    text-align: right;
+    margin: 0 20%;
+}
+
+
+.text-no-margin {
+    margin: 0px;
 }
