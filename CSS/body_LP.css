@@ -30,6 +30,7 @@ header {
     width: 100%;
     z-index: 0;
     height: 100vh;
+    object-fit: cover;
 }
 
 @media screen and (min-width: 500px){
@@ -37,6 +38,7 @@ header {
         width: 100%;
         z-index: 0;
         transform: translateY(-70px);
+        object-fit: cover;
     }
 }
 
@@ -44,6 +46,7 @@ header {
         width: 100%;
         z-index: 0;
         transform: translateY(200px);
+        
 }
 
 .Hero-but{
