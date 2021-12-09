@@ -1,0 +1,162 @@
+form {
+    display: table;
+}
+
+.single-tickets {
+    background-color: var(--Car-bx);
+    color: var(--W-tx);
+    height: 500px;
+    width: 320px;
+    margin: 10px;
+    z-index: 2;
+    padding: 20px
+}
+
+@media screen and (min-width: 500px) {
+    .single-tickets {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        height: 600px;
+        width: 550px;
+        z-index: 2;
+        padding: 30px
+    }
+}
+
+.tickets-wrapper {
+    display: flex; 
+    flex-direction: column; 
+}
+
+.g-tickets-wrapper {
+    gap: 30px;
+}
+
+.tickets-flex {
+    display: flex; 
+    justify-content: space-between
+}
+
+.tickets-align {
+    display: flex; 
+    align-items: center
+}
+
+
+ .center-text {
+        position: relative;
+        text-align: center; 
+        margin-top: 50px;
+        margin-bottom: 50px;      
+}
+
+
+.flex-box {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap:wrap;
+    margin-top: 250px;  
+}
+
+@media screen and (min-width:500px) {
+    .flex-box {
+        margin-top: 50px;
+    }  
+}
+
+input,label {
+    position: relative;
+}
+
+
+  .form-row {
+    padding: .3em;
+    display: flex;
+    justify-content: center;
+  }
+
+  @media screen and (min-width:500px) {
+    .form-row {
+        padding:.5em;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+  .form-row > label {
+    padding: 5px 5px 5px 0;
+  }
+
+  @media screen and (min-width:500px){
+    .form-row > label {
+        padding: 3px 3px 3px 0;
+      }
+  }
+
+  @media screen and (min-width:500px) {
+      .form-row >label {
+          padding: 0;
+      }
+  }
+
+
+  .group-tickets{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--Bl-bg);
+    color: var(--W-tx);
+    border-color: #E08F5B;
+    border-style: solid;
+    height: 500px;
+    width: 320px;
+    margin: 10px;
+    padding: 20px
+  }
+
+
+  @media  screen and (min-width:500px) {
+      .group-tickets {
+        height: 600px;
+        width: 550px;
+        padding-top: 20px;
+        padding: 30px
+      }
+  }
+
+  .btn-tickets {
+      display: flex;
+      justify-content: center;
+      margin-top: 40px;
+      width: 100%;
+      
+  }
+
+@media  screen and (min-width:500px) {
+    .btn-tickets {
+        display: flex;
+        justify-content: end;
+        width: 100%;
+    }
+}
+
+  .pgh-text {
+      margin:0;
+  }
+
+  .box-height {
+    height: 250px;
+}
+
+.border-box {
+    border: solid;
+    border-color: #E08F5B;
+    padding: 20px;
+
+}
+
+ 
+

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vikingtidsmuseet</title>
+    <link rel="stylesheet" href="./CSS/reset.css" />
+    <link rel="stylesheet" href="./CSS/colors.css" />
+    <link rel="stylesheet" href="./CSS/root.css" />
+    <link rel="stylesheet" href="./CSS/textstyles.css" />
+    <link rel="stylesheet" href="./CSS/cover.css" />
+    <link rel="stylesheet" href="./CSS/body_LP.css" />
+    <link rel="stylesheet" href="./CSS/stylesheet.css" />
+    <link rel="stylesheet" href="./CSS/slideshow.css" />
+    <link rel="stylesheet" href="./CSS/Card_img_text.css" />
+    <link rel="stylesheet" href="./CSS/video.css" />
+    <link rel="stylesheet" href="./CSS/nav-bar.css" />
+    <link rel="stylesheet" href="./CSS/Tickets.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="top-nav">
+          <img class="icon-img" src="./Assets/icon/user.png" />
+          <img class="icon-img" src="./Assets/icon/search.png" />
+          <img class="icon-img" src="./Assets/icon/global.png" />
+        </div>
+        <a href="./index.html"
+          ><img class="brand" src="./Assets/logo vikingtidmuseet.png"
+        /></a>
+        <input type="checkbox" id="nav" />
+        <label for="nav">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+        <ul class="menu">
+          <li>
+            <a class="menu-font" href="./Explore_the_museum.html"
+              >Experiences</a
+            >
+          </li>
+          <li><a class="menu-font" href="">Café</a></li>
+          <li><a class="menu-font" href="">Gift shop</a></li>
+          <li>
+            <a class="menu-font" href="./Plan_your_trip.html"
+              >Plan your visit</a
+            >
+          </li>
+          <li><a class="menu-font" href="./Tickets.html">Tickets</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <body>
+      <div class="Hero_Tickets">
+        <div class="Hero">
+          <div class="small-hero-container">
+            <img
+              src="./Assets/bar og dame.png"
+              alt="Bueskytter med mørk bakgrunn"
+              class="small-hero__cover"
+            />
+
+            <div class="hero_box_tertiary card_box white_text">
+              <br />
+              <h1>Tickets</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex-box">
+        <div id="form">
+          <form class="single-tickets">
+            <div class="border-box">
+            <p class="center-text">Single Tickets</p>
+            <div class="tickets-wrapper g-tickets-wrapper box-height">
+              <div class="tickets-flex">
+                <div>
+                  <label class="" for="Adult"
+                    ><p class="pgh-text">Adult</p></label
+                  >
+                </div>
+                <div class="tickets-align">
+                  <input
+                    type="number"
+                    id="Adult"
+                    name="Adult"
+                    min="1"
+                    max="8"
+                  />
+                </div>
+              </div>
+
+              <div class="tickets-flex">
+                <div>
+                  <label class="" for="Child">
+                    <p class="pgh-text">Child</p></label
+                  >
+                </div>
+                <div class="tickets-align">
+                  <input
+                    type="number"
+                    id="Child"
+                    name="Child"
+                    min="1"
+                    max="8"
+                  />
+                </div>
+              </div>
+
+              <div class="tickets-flex">
+                <div>
+                  <label class="" for="">
+                    <p class="pgh-text">Student</p></label
+                  >
+                </div>
+                <div class="tickets-align">
+                  <input
+                    type="number"
+                    id="Student"
+                    name="Student"
+                    min="1"
+                    max="8"
+                  />
+                </div>
+              </div>
+
+              <div class="tickets-flex">
+                <div>
+                  <label class="" for=""> <p class="pgh-text">Senior</p></label>
+                </div>
+                <div class="tickets-align">
+                  <input
+                    type="number"
+                    id="Senior"
+                    name="Senior"
+                    min="1"
+                    max="8"
+                  />
+                </div>
+              </div>
+
+              <div class="tickets-flex">
+                <div>
+                  <label class="" for="">
+                    <p class="pgh-text">Family</p>
+                    <p class="pgh-text">2 adults and 3 children</p></label
+                  >
+                </div>
+                <div class="tickets-align">
+                  <input
+                    type="number"
+                    id="Family"
+                    name="Family"
+                    min="1"
+                    max="8"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="btn-tickets">
+              <button class="c-a-btn-slide pgh-text">Continue</button>
+            </div>
+          </div>
+          </form>
+        </div>
+
+        <div id="form">
+          <form class="group-tickets">
+            <p class="center-text">Group Tickets</p>
+            <div class="tickets-wrapper">
+              <div class="tickets-flex"></div>
+              <p class="pgh-text box-height">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas
+                minus distinctio illo? Repellat, perferendis rerum officiis
+                autem non possimus sequi vitae natus harum ex! Earum deleniti
+                temporibus debitis? Illum, aspernatur.
+              </p>
+            </div>
+            <div class="btn-tickets">
+              <button class="c-a-btn-slide pgh-text">Learn more</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </body>
+  </body>
+</html>
