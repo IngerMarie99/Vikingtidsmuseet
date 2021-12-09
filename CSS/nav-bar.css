@@ -204,6 +204,9 @@ input[type="checkbox"]:checked ~ label span:nth-child(3) {
     display: block;
   }
 
+
+  
+
   p {
     margin: 30px 20px;
   }
@@ -213,3 +216,4 @@ input[type="checkbox"]:checked ~ label span:nth-child(3) {
     height: 48px;
   }
 }
+

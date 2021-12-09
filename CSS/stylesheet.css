@@ -311,3 +311,25 @@ footer {
     display: none;
   }
 }
+
+
+.itry{
+  max-width:1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+.itry img{
+  height: 375px;
+  width: 323px;
+  object-fit: cover;
+}
+
+@media screen and (min-width:500px) {
+  .itry img{
+    height: 534px;
+    width: 1070px;
+    object-fit: cover;
+  }
+}

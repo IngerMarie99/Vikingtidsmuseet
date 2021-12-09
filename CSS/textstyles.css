@@ -17,6 +17,10 @@ p {
     }
 }
 
+.centeredtext {
+    text-align: center;
+}
+
 h1 {
     font-family: 'Playfair Display', serif;
     font-size: 1.802rem;
@@ -38,7 +42,8 @@ h2 {
     font-size: 1.602rem;
     font-weight: 400;
     line-height: 34,16px;
-    text-align: center;
+    padding-top: 70px;
+
 }
 
 @media screen and (min-width: 500px) {

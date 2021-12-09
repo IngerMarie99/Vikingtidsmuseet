@@ -50,15 +50,16 @@
 
 .hero_box {
   position: absolute;
-  height: 380px;
+  height: 278px;
   width: 80%;
-  bottom: 10px;
+  bottom:60px;
   border-radius: 0px;
   padding-left: 24px;
   padding-right: 24px;
   padding-top: 20px;
   z-index: 0;
   right: 5%;
+  text-align: right;
 
 }
 
@@ -75,6 +76,17 @@
     padding-right: 24px;
     padding-top: 20px;
     z-index: 0;
+    text-align: left;
+  }
+}
+
+.hero_box-spacing {
+  padding-bottom: 10px;
+}
+
+@media screen and (min-width: 500px) {
+  .hero_box-spacing {
+    padding-bottom: 15px;
   }
 }
 

@@ -29,7 +29,7 @@ header {
 .Hero{
     width: 100%;
     z-index: 0;
-    height: 50vh;
+  
 }
 
 @media screen and (min-width: 500px){
@@ -84,7 +84,7 @@ header {
 
 .sli {
     text-align: center;
-    height: auto;
+
     margin: 3rem 0 10rem 0;
 }
 
@@ -94,6 +94,7 @@ header {
     max-width: 900px;
     margin: 4rem auto;
     background-color: var(--Wh-bg);
+    object-fit: cover;
 }
 
 @media screen and (min-width: 500px)
@@ -140,8 +141,8 @@ header {
 .Vidcta {
   position: absolute;
   z-index: 0;
-  top: 55%;
-  left: 10%;
+  bottom: 20px;
+  left: 20%;
   color: #f4f4f4;
 }
 
