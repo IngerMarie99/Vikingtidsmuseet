@@ -289,3 +289,25 @@ footer {
     max-width: 1440px;
   }
 }
+
+
+.mobilehide {
+  display: none;
+}
+
+@media screen and (min-width:500px) {
+  .mobilehide {
+    display: block;
+  }
+}
+
+
+.desktophide {
+  display: block;
+}
+
+@media screen and (min-width:500px) {
+  .desktophide {
+    display: none;
+  }
+}
