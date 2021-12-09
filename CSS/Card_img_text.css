@@ -23,6 +23,7 @@
 
 .card__img {
     height: 242px;
+    margin-top: 250px;
 }
 
 @media screen and (min-width: 500px) {
@@ -60,10 +61,10 @@
 .card__text {
     text-align: left;
     width:322px;
-    height:341px;
+    height:500px;
     padding-left: 35px;
     padding-right: 35px;
-    padding-top: 100px;
+    padding-top: 20px;
     background-color:var(--Car-bx) ;
     box-shadow: -2px 3px 5px 4px rgba(0, 0, 0, 0.25);
 }
@@ -95,7 +96,7 @@
 .card__text--reverse {
     text-align: left;
     width:322px;
-    height:341px;
+    height:500px;
     padding-left: 35px;
     padding-right: 35px;
     padding-top: 40px;
@@ -118,6 +119,7 @@
         order: 0;
     }
 }
+
 
 .card__text--reverse p {
     padding-top: 10px;
@@ -143,4 +145,9 @@
 .Tx_start_right{
     text-align: right;
     margin: 0 20%;
+}
+
+
+.text-no-margin {
+    margin: 0px;
 }
