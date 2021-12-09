@@ -84,9 +84,9 @@ header {
 {
     .app {
         text-align: center;
-        height: 400px;
+        height: 500px;
         width: auto;
-        max-width: 900px;
+        max-width: 1000px;
         margin: 4rem auto;
         background-color: var(--Wh-bg);
     }
@@ -103,7 +103,8 @@ header {
     height: auto;
     width: 100%;
     position: relative;
-    margin: 4rem 0;
+    margin: 4rem auto;
+    display: flex;
 }
 
 .Video {
