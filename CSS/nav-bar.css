@@ -43,7 +43,7 @@ nav {
   display: none;
 }
 
-#nav li:hover ul{
+#nav li:hover ul {
   display: block;
 }
 
@@ -56,7 +56,7 @@ nav h2 {
 }
 
 .menu {
-  position: sticky;
+  position: relative;
   top: 0px;
   margin-top: 55px;
   margin-right: 25px;
@@ -171,6 +171,64 @@ input[type="checkbox"]:checked ~ label span:nth-child(3) {
 .icon-img {
   width: 20px;
   margin: 0 8px;
+}
+
+.drop-d-a {
+  text-decoration: none;
+  color: #f4f4f4;
+  width: 10px;
+}
+
+.drop-d-a-t {
+  text-decoration: none;
+  color: #f4f4f4;
+}
+
+.spacing-dropdown {
+  width: 168px;
+}
+
+.drop-container {
+  background-color: #202020;
+  height: 200px;
+  width: 104%;
+  padding: 16px;
+}
+
+.menu li ul li {
+  display: block;
+  margin-left: 37px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+a.drop-d-a.d-text:hover {
+  color: #f4f4f4;
+}
+
+.flex {
+  display: flex;
+}
+
+.dropdown-title {
+  margin-bottom: 16px;
+}
+
+a.drop-down-d-a {
+  padding: 8px;
+}
+
+.d-text {
+  color: #bfbfbf;
+  font-size: 14px;
+}
+
+li.dropdown-title {
+  margin-bottom: 16px;
+}
+
+.mini-space {
+  height: 8px;
 }
 
 @media (max-width: 768px) {
