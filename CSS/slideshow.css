@@ -67,7 +67,6 @@
   top: -10px;
   left: -10px;
   height: 487px;
-
 }
 
 .title-slid {
@@ -80,7 +79,6 @@ p.p-tag-slid-date {
   margin: 16px 0px 16px 0px;
   text-align: left;
   font-weight: lighter;
-
 }
 
 .p-tag-slid {
@@ -106,8 +104,29 @@ p.p-tag-slid-date {
   margin-right: 170px;
 }
 
-
 .c-a-btn-slide:hover {
+  border: solid 2px #e08f5b;
+  padding: 16px;
+  color: #202020;
+  font-size: 20px;
+  background-color: #e08f5b;
+  margin-top: 32px;
+  transition: color 0.3s ease;
+  transition: 0.5s ease;
+}
+
+.c-a-btn {
+  border: solid 2px #e08f5b;
+  padding: 16px;
+  color: #e08f5b;
+  font-size: 20px;
+  background-color: #202020;
+  margin-top: 32px;
+  text-align: left;
+  margin-right: 170px;
+}
+
+.c-a-btn:hover {
   border: solid 2px #e08f5b;
   padding: 16px;
   color: #202020;
@@ -186,6 +205,40 @@ p.p-tag-slid-date {
     background-color: #202020;
     margin-top: 16px;
     text-align: left;
-    margin-right: 210px;
+    margin-right: 200px;
+  }
+
+  .c-a-btn {
+    border: solid 2px #e08f5b;
+    padding: 16px;
+    color: #e08f5b;
+    font-size: 20px;
+    background-color: #202020;
+    margin-top: 32px;
+    text-align: left;
+    margin-right: 0px;
+    width: 140px;
+  }
+
+  .c-a-btn:hover {
+    border: solid 2px #e08f5b;
+    padding: 16px;
+    color: #202020;
+    font-size: 20px;
+    background-color: #e08f5b;
+    margin-top: 32px;
+    transition: color 0.3s ease;
+    transition: 0.5s ease;
+  }
+
+  .height-fix {
+    height: 370px;
+  }
+}
+
+@media (max-width: 768px) {
+  .card-fix-height {
+    margin-top: 500px;
+    color: red;
   }
 }
