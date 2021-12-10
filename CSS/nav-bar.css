@@ -18,6 +18,10 @@ header {
   background-color: #151515;
 }
 
+.active-nav {
+  border-bottom: solid 2 #bfbfbf;
+}
+
 nav {
   height: 175px;
   /*osition: fixed;*/

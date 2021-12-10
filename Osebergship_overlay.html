@@ -1,88 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vikingtidsmuseet</title>
-    <link rel="stylesheet" href="./CSS/reset.css">
-    <link rel="stylesheet" href="./CSS/colors.css">
-    <link rel="stylesheet" href="./CSS/root.css">
-    <link rel="stylesheet" href="./CSS/textstyles.css">
-    <link rel="stylesheet" href="./CSS/body_LP.css">
-    <link rel="stylesheet" href="./CSS/stylesheet.css">
-    <link rel="stylesheet" href="./CSS/slideshow.css">
-    <link rel="stylesheet" href="./CSS/Card_img_text.css">
-    <link rel="stylesheet" href="./CSS/overlay.css">
-    <link rel="stylesheet" href="./CSS/nav-bar.css"/>
-</head>
+    <link rel="stylesheet" href="./CSS/reset.css" />
+    <link rel="stylesheet" href="./CSS/colors.css" />
+    <link rel="stylesheet" href="./CSS/root.css" />
+    <link rel="stylesheet" href="./CSS/textstyles.css" />
+    <link rel="stylesheet" href="./CSS/body_LP.css" />
+    <link rel="stylesheet" href="./CSS/stylesheet.css" />
+    <link rel="stylesheet" href="./CSS/slideshow.css" />
+    <link rel="stylesheet" href="./CSS/Card_img_text.css" />
+    <link rel="stylesheet" href="./CSS/overlay.css" />
+    <link rel="stylesheet" href="./CSS/nav-bar.css" />
+  </head>
 
-<body>
+  <body>
     <header>
-        <nav>
-          <div class="top-nav">
-            <img class="icon-img" src="./Assets/icon/user.png" />
-            <img class="icon-img" src="./Assets/icon/search.png" />
-            <img class="icon-img" src="./Assets/icon/global.png" />
-          </div>
-          <a href="./index.html"
-            ><img class="brand" src="./Assets/logo vikingtidmuseet.png"
-          /></a>
-          <input type="checkbox" id="nav" />
-          <label for="nav">
-            <span></span>
-            <span></span>
-            <span></span>
-          </label>
-          <ul class="menu">
-            <li>
-              <a class="menu-font" href="./Explore_the_museum.html"
-                >Experiences</a
-              >
-            </li>
-            <li><a class="menu-font" href="">Café</a></li>
-            <li><a class="menu-font" href="">Gift shop</a></li>
-            <li>
-              <a class="menu-font" href="./Plan_your_trip.html"
-                >Plan your visit</a
-              >
-            </li>
-            <li><a class="menu-font" href="./Tickets.html">Tickets</a></li>
-          </ul>
-        </nav>
-      </header>
+      <nav>
+        <div class="top-nav">
+          <img class="icon-img" src="./Assets/icon/user.png" />
+          <img class="icon-img" src="./Assets/icon/search.png" />
+          <img class="icon-img" src="./Assets/icon/global.png" />
+        </div>
+        <a href="./index.html"
+          ><img class="brand" src="./Assets/logo vikingtidmuseet.png"
+        /></a>
+        <input type="checkbox" id="nav" />
+        <label for="nav">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+        <ul class="menu" id="nav">
+          <li>
+            <a class="menu-font" href="./Explore_the_museum.html"
+              >Experiences</a
+            >
+          </li>
+          <li><a class="menu-font" href="">Café</a></li>
+          <li><a class="menu-font" href="">Gift shop</a></li>
+          <li>
+            <a class="menu-font dropdown" href="./Plan_your_trip.html"
+              >Plan your visit</a
+            >
 
-<main>
-<br>
-    <div class="overlay__wrapper">
-        <img class="overlay_img" src="./Assets/Osebergskipet_SMALL.jpeg" alt="Oseberg ship">
+            <ul>
+              <div class="drop-container flex">
+                <div class="">
+                  <div class="spacing-dropdown">
+                    <li class="dropdown-title">
+                      <a class="drop-d-a-t" href="./Plan_your_trip.html">Map</a>
+                    </li>
+                    <div class="mini-space"></div>
+                    <li><a class="drop-d-a d-text" href="">Cafè</a></li>
+                    <li><a class="drop-d-a d-text" href="">Toalett</a></li>
+                    <li>
+                      <a class="drop-d-a d-text" href="">Baby changing room</a>
+                    </li>
+                    <li><a class="drop-d-a d-text" href="">Exhibition</a></li>
+                  </div>
+                </div>
+                <div class="spacing-dropdown">
+                  <li class="dropdown-title">
+                    <a class="drop-d-a-t" href="">Handicap</a>
+                  </li>
+                  <div class="mini-space"></div>
+                  <li>
+                    <a class="drop-d-a d-text" href="">Wheelchair rental</a>
+                  </li>
+                  <li><a class="drop-d-a d-text" href="">Help</a></li>
+                  <li><a class="drop-d-a d-text" href="">Headset</a></li>
+                  <li><a class="drop-d-a d-text" href="">Quiet zone</a></li>
+                </div>
+                <div class="spacing-dropdown">
+                  <li class="dropdown-title">
+                    <a class="drop-d-a-t" href="./Plan_your_trip.html"
+                      >How to get there</a
+                    >
+                  </li>
+                  <div class="mini-space"></div>
+                  <li><a class="drop-d-a d-text" href="">Distance</a></li>
+                  <li>
+                    <a class="drop-d-a d-text" href="">Public transport</a>
+                  </li>
+                  <li>
+                    <a class="drop-d-a d-text" href="">Parking & shuttlebus</a>
+                  </li>
+                </div>
+                <div class="spacing-dropdown">
+                  <li class="dropdown-title">
+                    <a class="drop-d-a-t" href="">General info</a>
+                  </li>
+                  <div class="mini-space"></div>
+                  <li><a class="drop-d-a d-text" href="">Lockers info</a></li>
+                  <li><a class="drop-d-a d-text" href="">Tour guides</a></li>
+                  <li><a class="drop-d-a d-text" href="">Expedia</a></li>
+                </div>
+              </div>
+            </ul>
+          </li>
+          <li><a class="menu-font" href="./Tickets.html">Tickets</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <br />
+      <div class="overlay__wrapper">
+        <img
+          class="overlay_img"
+          src="./Assets/Osebergskipet_SMALL.jpeg"
+          alt="Oseberg ship"
+        />
 
         <div class="overlay_text">
-            <a href="Explore_the_museum.html"><button class="x-out">X</button></a>
-            <h3>Oseberg ship</h3>
-            <p class="o-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Assumenda asperiores accusamus ipsa, soluta cupiditate, 
-                velit necessitatibus dicta architecto nisi voluptatum 
-                possimus illo dolorem aliquid ipsum voluptates aut autem, 
-                repellendus quod amet. Error magnam praesentium culpa 
-                repellendus ab maiores voluptatum ratione, quod, expedita 
-                excepturi quidem asperiores ipsam! Odit explicabo sapiente 
-                quae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, 
-                quo voluptatum vel perspiciatis non consectetur error nihil, ullam laborum 
-                sint eos facere vitae aut nemo id doloribus, dolorum odit. Sint, tempore vero
-                ipsa unde, quis distinctio officiis et voluptas optio vitae numquam est veritatis 
-                ullam! Totam consequuntur commodi delectus odit!</p>
-                
-            <button class="c-a-btn-slide o-button">Tickets</button>
-            <br>
+          <a href="Explore_the_museum.html"><button class="x-out">X</button></a>
+          <h3>Oseberg ship</h3>
+          <p class="o-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
+            asperiores accusamus ipsa, soluta cupiditate, velit necessitatibus
+            dicta architecto nisi voluptatum possimus illo dolorem aliquid ipsum
+            voluptates aut autem, repellendus quod amet. Error magnam
+            praesentium culpa repellendus ab maiores voluptatum ratione, quod,
+            expedita excepturi quidem asperiores ipsam! Odit explicabo sapiente
+            quae. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Autem, quo voluptatum vel perspiciatis non consectetur error nihil,
+            ullam laborum sint eos facere vitae aut nemo id doloribus, dolorum
+            odit. Sint, tempore vero ipsa unde, quis distinctio officiis et
+            voluptas optio vitae numquam est veritatis ullam! Totam consequuntur
+            commodi delectus odit!
+          </p>
+
+          <button class="c-a-btn-slide o-button">Tickets</button>
+          <br />
         </div>
-    </div>
-
-
-
-
-
-
-</main>
-
-
-</body>
+      </div>
+    </main>
+  </body>
+</html>
