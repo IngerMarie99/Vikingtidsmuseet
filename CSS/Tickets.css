@@ -162,3 +162,32 @@ label {
   border-color: #e08f5b;
   padding: 20px;
 }
+
+@media (max-width: 768px) {
+  .size-fix {
+    height: 370px;
+    width: 322px;
+  }
+
+  .img-background-fix {
+    object-fit: contain;
+    width: 375px;
+  }
+  .vid-textbox-wrapper {
+    margin: 0 10px;
+  }
+
+  .img-background-fix-2 {
+    object-fit: cover;
+    width: 375px;
+  }
+
+  .app {
+    margin-top: 456px;
+  }
+
+  .desktophide {
+    object-fit: cover;
+    width: 375px;
+  }
+}

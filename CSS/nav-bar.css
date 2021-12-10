@@ -283,4 +283,16 @@ li.dropdown-title {
     width: 100%;
     height: 48px;
   }
+
+  .mobil-hero-fix-p {
+    margin: 0px;
+  }
+
+  .menu li ul li {
+    display: none;
+  }
+
+  .drop-container {
+    display: none;
+  }
 }
