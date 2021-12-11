@@ -38,6 +38,7 @@ footer {
     width: 100%;
     min-height: 200px;
     color: var(--W-tx);
+    padding-bottom: 45px;
   }
   
   .footer-wrapper {
