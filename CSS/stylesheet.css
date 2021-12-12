@@ -69,11 +69,13 @@ footer {
   
   .i__img {
     height: 24px;
+    text-align: left;
   }
 
   .i__img-margin-fix {
     margin-right: 8px;
     height: 24px;
+    
   }
   
   .footer-wrapper__logo {
@@ -84,6 +86,7 @@ footer {
   
   .footer-wrapper__logo img {
     width: 192px;
+    text-align: left;
   }
   
   .footer-wrapper__box {
